@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"$cor-primaria: blue;\r\n$font-primaria: monospace;\r\n\r\nsection {\r\n  max-width: 600px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.modal {\r\n  h1 {\r\n    color: $cor-primaria;\r\n    font-family: $font-primaria;\r\n  }\r\n\r\n  p {\r\n    font-size: 1.2em;\r\n    line-height: 1.4;\r\n    max-width: 400px;\r\n  }\r\n\r\n  a {\r\n    display: block;\r\n    max-width: 120px;\r\n    padding: 10px;\r\n    border-radius: 4px;\r\n    text-align: center;\r\n    background: $cor-primaria;\r\n    color: white;\r\n    text-decoration: none;\r\n    text-transform: uppercase;\r\n    font-family: $font-primaria;\r\n  }\r\n}\r\n\r\nul {\r\n  text-align: center;\r\n  li {\r\n    display: inline-block;\r\n    list-style: none;\r\n    a {\r\n      display: block;\r\n      padding: 20px;\r\n      text-decoration: none;\r\n      background: blue;\r\n      color: #fff;\r\n      &:hover {\r\n        background: pink;\r\n      }\r\n    }\r\n  }\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAGA,AAAA,OAAO,CAAC;EACN,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,MAAM;CACf;;;AAED,AACE,MADI,CACJ,EAAE,CAAC;EACD,KAAK,EAVM,IAAI;EAWf,WAAW,EAVC,SAAS;CAWtB;;;AAJH,AAME,MANI,CAMJ,CAAC,CAAC;EACA,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,KAAK;CACjB;;;AAVH,AAYE,MAZI,CAYJ,CAAC,CAAC;EACA,OAAO,EAAE,KAAK;EACd,SAAS,EAAE,KAAK;EAChB,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,GAAG;EAClB,UAAU,EAAE,MAAM;EAClB,UAAU,EA1BC,IAAI;EA2Bf,KAAK,EAAE,KAAK;EACZ,eAAe,EAAE,IAAI;EACrB,cAAc,EAAE,SAAS;EACzB,WAAW,EA7BC,SAAS;CA8BtB;;;AAGH,AAAA,EAAE,CAAC;EACD,UAAU,EAAE,MAAM;CAenB;;;AAhBD,AAEE,EAFA,CAEA,EAAE,CAAC;EACD,OAAO,EAAE,YAAY;EACrB,UAAU,EAAE,IAAI;CAWjB;;;AAfH,AAKI,EALF,CAEA,EAAE,CAGA,CAAC,CAAC;EACA,OAAO,EAAE,KAAK;EACd,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,IAAI;EACrB,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,IAAI;CAIZ;;;AAdL,AAWM,EAXJ,CAEA,EAAE,CAGA,CAAC,AAME,MAAM,CAAC;EACN,UAAU,EAAE,IAAI;CACjB"
+}

@@ -1,0 +1,59 @@
+/* line 4, ../../../Desktop/CURSO - CSS com SASS/sass/nesting-arquivo/scss/style.scss */
+section {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* line 10, ../../../Desktop/CURSO - CSS com SASS/sass/nesting-arquivo/scss/style.scss */
+.modal h1 {
+  color: blue;
+  font-family: monospace;
+}
+
+/* line 15, ../../../Desktop/CURSO - CSS com SASS/sass/nesting-arquivo/scss/style.scss */
+.modal p {
+  font-size: 1.2em;
+  line-height: 1.4;
+  max-width: 400px;
+}
+
+/* line 21, ../../../Desktop/CURSO - CSS com SASS/sass/nesting-arquivo/scss/style.scss */
+.modal a {
+  display: block;
+  max-width: 120px;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  background: blue;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+/* line 35, ../../../Desktop/CURSO - CSS com SASS/sass/nesting-arquivo/scss/style.scss */
+ul {
+  text-align: center;
+}
+
+/* line 37, ../../../Desktop/CURSO - CSS com SASS/sass/nesting-arquivo/scss/style.scss */
+ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+/* line 40, ../../../Desktop/CURSO - CSS com SASS/sass/nesting-arquivo/scss/style.scss */
+ul li a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  background: blue;
+  color: #fff;
+}
+
+/* line 46, ../../../Desktop/CURSO - CSS com SASS/sass/nesting-arquivo/scss/style.scss */
+ul li a:hover {
+  background: pink;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,34 @@
+/* line 3, ../../../../Desktop/CURSO - CSS com SASS/sass/scss/style.scss */
+section {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* line 6, ../../../../Desktop/CURSO - CSS com SASS/sass/scss/style.scss */
+section h1 {
+  color: blue;
+  font-family: monospace;
+}
+
+/* line 11, ../../../../Desktop/CURSO - CSS com SASS/sass/scss/style.scss */
+section p {
+  font-size: 1.2em;
+  line-height: 1.4;
+  max-width: 400px;
+}
+
+/* line 17, ../../../../Desktop/CURSO - CSS com SASS/sass/scss/style.scss */
+section a {
+  display: block;
+  max-width: 120px;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  background: blue;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+/*# sourceMappingURL=style.css.map */

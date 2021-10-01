@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"@mixin title-large {\r\n  font-size: 4em;\r\n  font-weight: bold;\r\n  font-family: monospace;\r\n}\r\n\r\n@mixin border-box {\r\n  box-sizing: border-box;\r\n  -moz-box-sizing: border-box;\r\n  -webkit-box-sizing: border-box;\r\n}\r\n\r\n$cor-primaria: blue;\r\n$font-primaria: monospace;\r\n\r\nsection {\r\n  max-width: 600px;\r\n  margin: 0 auto;\r\n  @include border-box;\r\n}\r\n\r\n.modal {\r\n  h1 {\r\n    color: $cor-primaria;\r\n    font-family: $font-primaria;\r\n    @include title-large;\r\n  }\r\n\r\n  p {\r\n    font-size: 1.2em;\r\n    line-height: 1.4;\r\n    max-width: 400px;\r\n  }\r\n\r\n  a {\r\n    display: block;\r\n    max-width: 120px;\r\n    padding: 10px;\r\n    border-radius: 4px;\r\n    text-align: center;\r\n    background: $cor-primaria;\r\n    color: white;\r\n    text-decoration: none;\r\n    text-transform: uppercase;\r\n    font-family: $font-primaria;\r\n  }\r\n}\r\n\r\nul {\r\n  text-align: center;\r\n  li {\r\n    display: inline-block;\r\n    list-style: none;\r\n    a {\r\n      display: block;\r\n      padding: 20px;\r\n      text-decoration: none;\r\n      background: blue;\r\n      color: #fff;\r\n      &:hover {\r\n        background: pink;\r\n      }\r\n    }\r\n  }\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAeA,AAAA,OAAO,CAAC;EACN,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,MAAM;EAVd,UAAU,EAAE,UAAU;EACtB,eAAe,EAAE,UAAU;EAC3B,kBAAkB,EAAE,UAAU;CAU/B;;;AAED,AACE,MADI,CACJ,EAAE,CAAC;EACD,KAAK,EAXM,IAAI;EAYf,WAAW,EAXC,SAAS;EAZvB,SAAS,EAAE,GAAG;EACd,WAAW,EAAE,IAAI;EACjB,WAAW,EAAE,SAAS;CAuBrB;;;AALH,AAOE,MAPI,CAOJ,CAAC,CAAC;EACA,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,KAAK;CACjB;;;AAXH,AAaE,MAbI,CAaJ,CAAC,CAAC;EACA,OAAO,EAAE,KAAK;EACd,SAAS,EAAE,KAAK;EAChB,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,GAAG;EAClB,UAAU,EAAE,MAAM;EAClB,UAAU,EA5BC,IAAI;EA6Bf,KAAK,EAAE,KAAK;EACZ,eAAe,EAAE,IAAI;EACrB,cAAc,EAAE,SAAS;EACzB,WAAW,EA/BC,SAAS;CAgCtB;;;AAGH,AAAA,EAAE,CAAC;EACD,UAAU,EAAE,MAAM;CAenB;;;AAhBD,AAEE,EAFA,CAEA,EAAE,CAAC;EACD,OAAO,EAAE,YAAY;EACrB,UAAU,EAAE,IAAI;CAWjB;;;AAfH,AAKI,EALF,CAEA,EAAE,CAGA,CAAC,CAAC;EACA,OAAO,EAAE,KAAK;EACd,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,IAAI;EACrB,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,IAAI;CAIZ;;;AAdL,AAWM,EAXJ,CAEA,EAAE,CAGA,CAAC,AAME,MAAM,CAAC;EACN,UAAU,EAAE,IAAI;CACjB"
+}
